@@ -1,6 +1,6 @@
 import express from 'express'
 import bodyParser from 'body-parser'
-import { response } from '../Model/index'
+import { response } from '../Model/index.js'
 
 const responseRouter = express.Router()
 

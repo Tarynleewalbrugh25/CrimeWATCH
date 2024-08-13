@@ -1,6 +1,6 @@
 import express from "express";
 import bodyParser from "body-parser";
-import { users } from "../Model/index";
+import { users } from "../Model/index.js";
 
 
 const userRouter = express.Router()
