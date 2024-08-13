@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Routes</title>
+  </head>
+
+  <body>
+    <div class="main-div">
+      <table>
+        <div>
+          <h3>Route Information for users</h3>
+        </div>
+        <thead>
+          <th>Routes</th>
+          <th>HTTP Method</th>
+          <th>Description</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>/users/</td>
+            <td>GET</td>
+            <td>Retrieve all users from the database</td>
+          </tr>
+          <tr>
+            <td>/users/:id</td>
+            <td>GET</td>
+            <td>Retrieve a specific user</td>
+          </tr>
+          <tr>
+            <td>/users/register</td>
+            <td>post</td>
+            <td>Register a new user</td>
+          </tr>
+          <tr>
+            <td>/users/update/:id</td>
+            <td>patch</td>
+            <td>Edit user information</td>
+          </tr>
+          <tr>
+            <td>/users/delete/:id</td>
+            <td>delete</td>
+            <td>Delete a specific user</td>
+          </tr>
+          <tr>
+            <td>/users/login</td>
+            <td>post</td>
+            <td>Allow user to log in</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
